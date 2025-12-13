@@ -3,7 +3,10 @@
     "allow": [
       "Bash(git init:*)",
       "Bash(git remote add:*)",
-      "Bash(npx create-dumi:*)"
+      "Bash(npx create-dumi:*)",
+      "Bash(pnpm install:*)",
+      "Bash(tree:*)",
+      "Bash(cat:*)"
     ]
   }
 }
