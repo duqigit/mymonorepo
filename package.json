@@ -19,10 +19,10 @@
     "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
     "prepublishOnly": "father doctor && npm run build",
-    "publish:qa": "lerna publish --dist-tag qa --yes",
-    "publish:ol": "lerna publish --dist-tag latest --yes",
-    "version:qa": "lerna version --conventional-commits --conventional-prerelease --preid qa --yes",
-    "version:ol": "lerna version --conventional-commits --conventional-graduate --yes"
+    "release:qa": "pnpm build:packages && lerna publish --dist-tag qa --preid qa --pre-dist-tag qa",
+    "release:ol": "pnpm build:packages && lerna publish --dist-tag latest",
+    "version:qa": "lerna version --conventional-commits --conventional-prerelease --preid qa",
+    "version:ol": "lerna version --conventional-commits --conventional-graduate"
   },
   "authors": [
     "916475145@qq.com"
