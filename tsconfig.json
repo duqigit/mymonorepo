@@ -8,9 +8,9 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "my-function-lodash-ginza": ["src"],
-      "my-function-lodash-ginza/*": ["src/*", "*"]
+      "@coder-cloud/ginza-button": ["packages/ginza-button/src"],
+      "@coder-cloud/ginza-modal": ["packages/ginza-modal/src"]
     }
   },
-  "include": [".dumirc.ts", "src/**/*"]
+  "include": [".dumirc.ts", "packages/*/src/**/*"]
 }

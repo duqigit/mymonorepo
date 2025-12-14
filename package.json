@@ -2,23 +2,17 @@
   "name": "my-mymonorepo-antd-ginza",
   "version": "0.0.1",
   "private": true,
-  "description": "A react library developed with dumi",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "description": "Ginza - A react component library based on antd 5.x",
   "scripts": {
     "start": "npm run dev",
     "dev": "dumi dev",
-    "build": "father build",
     "build:packages": "lerna run build",
-    "build:watch": "father dev",
     "docs:build": "dumi build",
     "docs:preview": "dumi preview",
     "prepare": "husky install && dumi setup",
-    "doctor": "father doctor",
     "lint": "npm run lint:es && npm run lint:css",
-    "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
-    "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
-    "prepublishOnly": "father doctor && npm run build",
+    "lint:css": "stylelint \"packages/*/src/**/*.{css,less}\"",
+    "lint:es": "eslint \"packages/*/src/**/*.{js,jsx,ts,tsx}\"",
     "release:qa": "pnpm build:packages && lerna publish --dist-tag qa --preid qa --pre-dist-tag qa",
     "release:ol": "pnpm build:packages && lerna publish --dist-tag latest",
     "version:qa": "lerna version --conventional-commits --conventional-prerelease --preid qa",
@@ -28,9 +22,6 @@
     "916475145@qq.com"
   ],
   "license": "MIT",
-  "files": [
-    "dist"
-  ],
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
@@ -53,35 +44,24 @@
       "prettier --parser=typescript --write"
     ]
   },
-  "publishConfig": {
-    "access": "public"
-  },
-  "peerDependencies": {
-    "react": "catalog:",
-    "react-dom": "catalog:"
-  },
-  "dependencies": {
-    "@coder-cloud/ginza-button": "workspace:*",
-    "@coder-cloud/ginza-modal": "workspace:*"
-  },
   "devDependencies": {
+    "@coder-cloud/ginza-button": "workspace:*",
+    "@coder-cloud/ginza-modal": "workspace:*",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
-    "@types/react": "catalog:",
-    "@types/react-dom": "catalog:",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
     "@umijs/lint": "^4.0.0",
-    "antd": "catalog:",
     "dumi": "^2.4.13",
     "eslint": "^8.23.0",
-    "father": "^4.1.0",
     "husky": "^8.0.1",
     "lerna": "^8.0.0",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "prettier-plugin-organize-imports": "^3.0.0",
     "prettier-plugin-packagejson": "^2.2.18",
-    "react": "catalog:",
-    "react-dom": "catalog:",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "stylelint": "^14.9.1"
   }
 }
