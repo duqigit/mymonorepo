@@ -5,15 +5,18 @@
 65 error  WARN  deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
 65 error Progress: resolved 19, reused 0, downloaded 0, added 0
 65 error /Users/duqi/Desktop/project/mymonorepo/packages/ginza-all:
-65 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @coder-cloud/ginza-button@^0.0.4-qa.4 while fetching it from https://registry.npmjs.org/
+65 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @coder-cloud/ginza-button@^0.0.5 while fetching it from https://registry.npmjs.org/
 65 error
 65 error This error happened while installing a direct dependency of /Users/duqi/Desktop/project/mymonorepo/packages/ginza-all
 65 error
 65 error The latest release of @coder-cloud/ginza-button is "0.0.4-qa.1".
 65 error
-65 error If you need the full list of all 3 published versions run "$ pnpm view @coder-cloud/ginza-button versions".
-65 error     at makeError (/Users/duqi/Desktop/project/mymonorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
-65 error     at handlePromise (/Users/duqi/Desktop/project/mymonorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+65 error Other releases are:
+65 error   * qa: 0.0.4-qa.5
+65 error
+65 error If you need the full list of all 5 published versions run "$ pnpm view @coder-cloud/ginza-button versions".
+65 error     at makeError (/Users/duqi/Desktop/project/mymonorepo/node_modules/.pnpm/execa@5.1.1/node_modules/execa/lib/error.js:60:11)
+65 error     at handlePromise (/Users/duqi/Desktop/project/mymonorepo/node_modules/.pnpm/execa@5.1.1/node_modules/execa/index.js:118:26)
 65 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-65 error     at async VersionCommand.updatePackageVersions (/Users/duqi/Desktop/project/mymonorepo/node_modules/.pnpm/lerna@8.2.4_@swc+core@1.9.2_@swc+helpers@0.5.15__@types+node@20.5.1_encoding@0.1.13/node_modules/lerna/dist/index.js:10090:11)
+65 error     at async VersionCommand.updatePackageVersions (/Users/duqi/Desktop/project/mymonorepo/node_modules/.pnpm/lerna@7.4.2_@swc+core@1.9.2_@swc+helpers@0.5.15__@types+node@20.5.1_encoding@0.1.13/node_modules/lerna/dist/index.js:8284:11)
 65 error     at async Promise.all (index 0)
