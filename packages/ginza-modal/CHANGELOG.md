@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.3](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-modal@0.0.3-qa.6...@coder-cloud/ginza-modal@0.0.3) (2025-12-14)
+
+**Note:** Version bump only for package @coder-cloud/ginza-modal
+
 ## [0.0.3-qa.6](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-modal@0.0.3-qa.3...@coder-cloud/ginza-modal@0.0.3-qa.6) (2025-12-14)
 
 **Note:** Version bump only for package @coder-cloud/ginza-modal

@@ -1,6 +1,6 @@
 {
   "name": "@coder-cloud/ginza-modal",
-  "version": "0.0.3-qa.6",
+  "version": "0.0.3",
   "description": "A modal component based on antd 5.x",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",

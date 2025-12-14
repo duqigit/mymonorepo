@@ -1,6 +1,6 @@
 {
   "name": "my-mymonorepo-antd-ginz",
-  "version": "0.0.3-qa.6",
+  "version": "0.0.3",
   "description": "All Ginza components in one package - based on antd 5.x",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
