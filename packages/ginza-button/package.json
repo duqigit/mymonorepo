@@ -1,6 +1,6 @@
 {
   "name": "@coder-cloud/ginza-button",
-  "version": "0.0.4-qa.4",
+  "version": "0.0.4-qa.5",
   "description": "A button component based on antd 5.x",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
