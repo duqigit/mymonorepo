@@ -3,38 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.0.3-qa.2](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-modal@0.1.0...@coder-cloud/ginza-modal@0.0.3-qa.2) (2025-12-14)
-
+## [0.0.3-qa.3](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-modal@0.1.0...@coder-cloud/ginza-modal@0.0.3-qa.3) (2025-12-14)
 
 ### Bug Fixes
 
-* 修复Ginza组件版本号为0.0.1 ([ba1c948](https://github.com/duqigit/mymonorepo/commit/ba1c9487692451a7db71322734b47f1e66c1fe1f))
+- 修复 Ginza 组件版本号为 0.0.1 ([ba1c948](https://github.com/duqigit/mymonorepo/commit/ba1c9487692451a7db71322734b47f1e66c1fe1f))
 
+## [0.0.3-qa.2](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-modal@0.1.0...@coder-cloud/ginza-modal@0.0.3-qa.2) (2025-12-14)
 
+### Bug Fixes
 
-
+- 修复 Ginza 组件版本号为 0.0.1 ([ba1c948](https://github.com/duqigit/mymonorepo/commit/ba1c9487692451a7db71322734b47f1e66c1fe1f))
 
 ## [0.0.3-qa.1](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-modal@0.1.0...@coder-cloud/ginza-modal@0.0.3-qa.1) (2025-12-14)
 
-
 ### Bug Fixes
 
-* 修复Ginza组件版本号为0.0.1 ([ba1c948](https://github.com/duqigit/mymonorepo/commit/ba1c9487692451a7db71322734b47f1e66c1fe1f))
-
-
-
-
+- 修复 Ginza 组件版本号为 0.0.1 ([ba1c948](https://github.com/duqigit/mymonorepo/commit/ba1c9487692451a7db71322734b47f1e66c1fe1f))
 
 ## [0.0.3-qa.0](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-modal@0.1.0...@coder-cloud/ginza-modal@0.0.3-qa.0) (2025-12-14)
 
-
 ### Bug Fixes
 
-* 修复Ginza组件版本号为0.0.1 ([ba1c948](https://github.com/duqigit/mymonorepo/commit/ba1c9487692451a7db71322734b47f1e66c1fe1f))
-
-
-
-
+- 修复 Ginza 组件版本号为 0.0.1 ([ba1c948](https://github.com/duqigit/mymonorepo/commit/ba1c9487692451a7db71322734b47f1e66c1fe1f))
 
 ## [0.0.2](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-modal@0.1.0...@coder-cloud/ginza-modal@0.0.2) (2025-12-14)
 
