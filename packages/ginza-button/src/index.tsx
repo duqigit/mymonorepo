@@ -7,6 +7,8 @@ export interface GinzaButtonProps extends AntdButtonProps {
   showLoading?: boolean;
   /** 按钮前缀文本 */
   prefixText?: string;
+  /** 按钮后缀文本 */
+  suffixText?: string;
 }
 
 /**
@@ -21,6 +23,7 @@ export const GinzaButton: React.FC<GinzaButtonProps> = ({
   children,
   showLoading = false,
   prefixText,
+  suffixText,
   loading,
   ...restProps
 }) => {
@@ -30,6 +33,7 @@ export const GinzaButton: React.FC<GinzaButtonProps> = ({
     <AntdButton loading={isLoading} {...restProps}>
       {prefixText && <span style={{ marginRight: 4 }}>{prefixText}</span>}
       {children}
+      {suffixText && <span style={{ marginLeft: 4 }}>{suffixText}</span>}
     </AntdButton>
   );
 };
