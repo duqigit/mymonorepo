@@ -20,8 +20,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@coder-cloud/ginza-button": "workspace:*",
-    "@coder-cloud/ginza-modal": "workspace:*"
+    "@coder-cloud/ginza-button": "0.0.3",
+    "@coder-cloud/ginza-modal": "0.0.2"
   },
   "peerDependencies": {
     "antd": "^5.22.0",
@@ -39,5 +39,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "0c6a04e9c052ea1117a62e3ad2d7ac50af5743da"
 }
