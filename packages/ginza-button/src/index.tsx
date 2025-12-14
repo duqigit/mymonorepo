@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button as AntdButton } from 'antd';
 import type { ButtonProps as AntdButtonProps } from 'antd';
-import 'antd/dist/antd.css';
 
 export interface GinzaButtonProps extends AntdButtonProps {
   /** 是否显示加载中的图标 */
@@ -11,7 +10,7 @@ export interface GinzaButtonProps extends AntdButtonProps {
 }
 
 /**
- * GinzaButton - 基于 antd 4.x 封装的按钮组件
+ * GinzaButton - 基于 antd 5.x 封装的按钮组件
  *
  * @example
  * ```tsx

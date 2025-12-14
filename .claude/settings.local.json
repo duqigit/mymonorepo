@@ -6,7 +6,9 @@
       "Bash(npx create-dumi:*)",
       "Bash(pnpm install:*)",
       "Bash(tree:*)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(mkdir:*)",
+      "Bash(pnpm build:*)"
     ]
   }
 }

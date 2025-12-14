@@ -10,13 +10,13 @@ group:
 
 # GinzaButton 按钮
 
-基于 antd 4.x 封装的按钮组件。
+基于 antd 5.x 封装的按钮组件。
 
 ## 基础用法
 
 ```tsx
 import React from 'react';
-import { GinzaButton } from '@ginza/button';
+import { GinzaButton } from '@coder-cloud/ginza-button';
 
 export default () => (
   <div style={{ display: 'flex', gap: 8 }}>
@@ -32,7 +32,7 @@ export default () => (
 
 ```tsx
 import React from 'react';
-import { GinzaButton } from '@ginza/button';
+import { GinzaButton } from '@coder-cloud/ginza-button';
 
 export default () => (
   <GinzaButton type="primary" prefixText="点击">
@@ -45,7 +45,7 @@ export default () => (
 
 ```tsx
 import React, { useState } from 'react';
-import { GinzaButton } from '@ginza/button';
+import { GinzaButton } from '@coder-cloud/ginza-button';
 
 export default () => {
   const [loading, setLoading] = useState(false);

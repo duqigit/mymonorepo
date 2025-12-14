@@ -1,4 +1,4 @@
-// 导出所有组件
+// Re-export all components from sub-packages
 export { GinzaButton } from '@coder-cloud/ginza-button';
 export type { GinzaButtonProps } from '@coder-cloud/ginza-button';
 
