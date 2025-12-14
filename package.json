@@ -13,8 +13,8 @@
     "lint": "npm run lint:es && npm run lint:css",
     "lint:css": "stylelint \"packages/*/src/**/*.{css,less}\"",
     "lint:es": "eslint \"packages/*/src/**/*.{js,jsx,ts,tsx}\"",
-    "release:qa": "pnpm build:packages && lerna publish --dist-tag qa --preid qa --pre-dist-tag qa",
-    "release:ol": "pnpm build:packages && lerna publish --dist-tag latest",
+    "release:qa": "pnpm build:packages && lerna publish prerelease --dist-tag qa --preid qa --pre-dist-tag qa --yes",
+    "release:ol": "pnpm build:packages && lerna publish patch --dist-tag latest --yes",
     "version:qa": "lerna version --conventional-commits --conventional-prerelease --preid qa",
     "version:ol": "lerna version --conventional-commits --conventional-graduate"
   },
