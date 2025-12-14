@@ -5,7 +5,8 @@
     "publish": {
       "message": "chore(release): publish %s",
       "registry": "https://registry.npmjs.org/",
-      "ignoreChanges": ["*.md", "*.test.ts", "*.spec.ts"]
+      "ignoreChanges": ["*.md", "*.test.ts", "*.spec.ts"],
+      "verifyAccess": false
     },
     "version": {
       "allowBranch": ["main", "master", "develop", "release/*", "feature/*"],
