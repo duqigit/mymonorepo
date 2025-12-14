@@ -1,0 +1,19 @@
+64 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
+64 error Scope: all 4 workspace projects
+64 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+64 error Progress: resolved 1, reused 0, downloaded 0, added 0
+64 error  WARN  deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+64 error Progress: resolved 19, reused 0, downloaded 0, added 0
+64 error /Users/duqi/Desktop/project/mymonorepo/packages/ginza-all:
+64 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @coder-cloud/ginza-modal@^0.0.3-qa.0 while fetching it from https://registry.npmjs.org/
+64 error
+64 error This error happened while installing a direct dependency of /Users/duqi/Desktop/project/mymonorepo/packages/ginza-all
+64 error
+64 error The latest release of @coder-cloud/ginza-modal is "0.0.1".
+64 error
+64 error If you need the full list of all 1 published versions run "$ pnpm view @coder-cloud/ginza-modal versions".
+64 error     at makeError (/Users/duqi/Desktop/project/mymonorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+64 error     at handlePromise (/Users/duqi/Desktop/project/mymonorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+64 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+64 error     at async VersionCommand.updatePackageVersions (/Users/duqi/Desktop/project/mymonorepo/node_modules/.pnpm/lerna@8.2.4_@swc+core@1.9.2_@swc+helpers@0.5.15__@types+node@20.5.1_encoding@0.1.13/node_modules/lerna/dist/index.js:10090:11)
+64 error     at async Promise.all (index 0)
