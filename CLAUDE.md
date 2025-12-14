@@ -33,12 +33,51 @@ pnpm lint         # 运行 ESLint 和 Stylelint
 pnpm lint:es      # 仅 ESLint
 pnpm lint:css     # 仅 Stylelint
 
-# 发布 QA 预发布版本
+# 发布 QA 预发布版本（Lerna 有 bug，见下方说明）
 pnpm release:qa
 
 # 发布正式版本
 pnpm release:ol
+
+# 手动发布（推荐，绕过 Lerna bug）
+pnpm build:packages && cd packages/ginza-button && npm publish --access public --tag qa && cd ../ginza-modal && npm publish --access public --tag qa && cd ../ginza-all && npm publish --access public --tag qa
 ```
+
+## 发布配置
+
+### 已知问题
+
+**Lerna 8.x timeout bug**: Lerna 8.x 与 npm 配置交互时存在 bug，`timeout` 参数被当作字符串处理导致发布失败。解决方案：
+1. 降级到 Lerna 7.x: `pnpm add -D lerna@^7.0.0 -w`
+2. 或使用手动发布命令（见上方）
+
+### npm Token 配置
+
+自动化发布需要配置 **Bypass 2FA** 的 npm token：
+
+1. 访问 https://www.npmjs.com/settings/~/tokens
+2. Generate New Token（Granular Access Token）
+3. 勾选 **"Bypass two-factor authentication (2FA)"**
+4. Packages and scopes 权限设为 **Read and write**
+5. 更新 `~/.npmrc`:
+   ```
+   //registry.npmjs.org/:_authToken=你的token
+   ```
+
+**注意**: `~/.npmrc` 的配置会覆盖项目内 `.npmrc`，确保全局配置使用正确的 token。
+
+### 包依赖配置
+
+`ginza-all` 聚合包对内部包的依赖必须使用 `workspace:*`：
+
+```json
+"dependencies": {
+  "@coder-cloud/ginza-button": "workspace:*",
+  "@coder-cloud/ginza-modal": "workspace:*"
+}
+```
+
+发布时 pnpm 会自动将 `workspace:*` 替换为实际版本号。
 
 ## 架构
 
