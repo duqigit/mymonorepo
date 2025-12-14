@@ -11,6 +11,8 @@ export interface GinzaButtonProps extends AntdButtonProps {
   suffixText?: string;
   /** 是否为胶囊形状（圆角） */
   rounded?: boolean;
+  /** 文字是否加粗 */
+  bold?: boolean;
 }
 
 /**
@@ -27,15 +29,20 @@ export const GinzaButton: React.FC<GinzaButtonProps> = ({
   prefixText,
   suffixText,
   rounded = false,
+  bold = false,
   loading,
   style,
   ...restProps
 }) => {
   const isLoading = showLoading || loading;
-  const roundedStyle = rounded ? { borderRadius: 999, ...style } : style;
+  const combinedStyle = {
+    ...(rounded ? { borderRadius: 999 } : {}),
+    ...(bold ? { fontWeight: 'bold' } : {}),
+    ...style,
+  };
 
   return (
-    <AntdButton loading={isLoading} style={roundedStyle} {...restProps}>
+    <AntdButton loading={isLoading} style={combinedStyle} {...restProps}>
       {prefixText && <span style={{ marginRight: 4 }}>{prefixText}</span>}
       {children}
       {suffixText && <span style={{ marginLeft: 4 }}>{suffixText}</span>}
