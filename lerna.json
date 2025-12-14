@@ -1,6 +1,7 @@
 {
   "version": "independent",
   "npmClient": "pnpm",
+  "syncWorkspaceLock": false,
   "command": {
     "publish": {
       "message": "chore(release): publish %s",
