@@ -5,7 +5,11 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "jsx": "react",
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "lib": ["ES2015", "DOM"],
+    "target": "ES2015",
+    "module": "ESNext",
+    "moduleResolution": "node"
   },
   "include": ["src/**/*"]
 }
