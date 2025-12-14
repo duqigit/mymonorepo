@@ -88,6 +88,37 @@ importers:
         specifier: ^14.9.1
         version: 14.16.1
 
+  packages/ginza-all:
+    dependencies:
+      '@coder-cloud/ginza-button':
+        specifier: workspace:*
+        version: link:../ginza-button
+      '@coder-cloud/ginza-modal':
+        specifier: workspace:*
+        version: link:../ginza-modal
+    devDependencies:
+      '@types/react':
+        specifier: 'catalog:'
+        version: 18.3.27
+      '@types/react-dom':
+        specifier: 'catalog:'
+        version: 18.3.7(@types/react@18.3.27)
+      antd:
+        specifier: 'catalog:'
+        version: 5.29.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      father:
+        specifier: ^4.1.0
+        version: 4.6.9(@babel/core@7.28.5)(@types/node@25.0.2)(@types/webpack@5.28.5(@swc/core@1.9.2(@swc/helpers@0.5.15)))(styled-components@6.1.19(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(type-fest@1.4.0)(webpack@5.103.0(@swc/core@1.9.2(@swc/helpers@0.5.15)))
+      react:
+        specifier: 'catalog:'
+        version: 18.3.1
+      react-dom:
+        specifier: 'catalog:'
+        version: 18.3.1(react@18.3.1)
+      typescript:
+        specifier: ^5.0.0
+        version: 5.9.3
+
   packages/ginza-button:
     devDependencies:
       '@types/react':
@@ -10724,7 +10755,7 @@ snapshots:
       postcss-preset-env: 7.5.0(postcss@8.5.6)
       rollup-plugin-visualizer: 5.9.0(rollup@3.29.5)
       systemjs: 6.15.1
-      vite: 4.5.2(@types/node@20.5.1)(less@4.4.2)(lightningcss@1.22.1)(sass@1.54.0)(terser@5.44.1)
+      vite: 4.5.2(@types/node@20.5.1)(less@4.1.3)(lightningcss@1.22.1)(sass@1.96.0)(terser@5.44.1)
     transitivePeerDependencies:
       - '@types/node'
       - lightningcss
@@ -11163,7 +11194,7 @@ snapshots:
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.5)
       '@babel/plugin-transform-react-jsx-source': 7.27.1(@babel/core@7.28.5)
       react-refresh: 0.14.2
-      vite: 4.5.2(@types/node@20.5.1)(less@4.4.2)(lightningcss@1.22.1)(sass@1.54.0)(terser@5.44.1)
+      vite: 4.5.2(@types/node@20.5.1)(less@4.1.3)(lightningcss@1.22.1)(sass@1.96.0)(terser@5.44.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -18567,7 +18598,7 @@ snapshots:
       unist-util-stringify-position: 3.0.3
       vfile-message: 3.1.4
 
-  vite@4.5.2(@types/node@20.5.1)(less@4.4.2)(lightningcss@1.22.1)(sass@1.54.0)(terser@5.44.1):
+  vite@4.5.2(@types/node@20.5.1)(less@4.1.3)(lightningcss@1.22.1)(sass@1.96.0)(terser@5.44.1):
     dependencies:
       esbuild: 0.18.20
       postcss: 8.5.6
@@ -18575,9 +18606,9 @@ snapshots:
     optionalDependencies:
       '@types/node': 20.5.1
       fsevents: 2.3.3
-      less: 4.4.2
+      less: 4.1.3
       lightningcss: 1.22.1
-      sass: 1.54.0
+      sass: 1.96.0
       terser: 5.44.1
 
   vm-browserify@1.1.2: {}
