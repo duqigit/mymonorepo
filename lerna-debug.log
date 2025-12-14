@@ -5,7 +5,7 @@
 64 error  WARN  deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
 64 error Progress: resolved 19, reused 0, downloaded 0, added 0
 64 error /Users/duqi/Desktop/project/mymonorepo/packages/ginza-all:
-64 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @coder-cloud/ginza-modal@^0.0.3-qa.0 while fetching it from https://registry.npmjs.org/
+64 error  ERR_PNPM_NO_MATCHING_VERSION  No matching version found for @coder-cloud/ginza-modal@^0.0.3-qa.1 while fetching it from https://registry.npmjs.org/
 64 error
 64 error This error happened while installing a direct dependency of /Users/duqi/Desktop/project/mymonorepo/packages/ginza-all
 64 error
