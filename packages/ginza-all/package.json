@@ -1,6 +1,6 @@
 {
   "name": "my-mymonorepo-antd-ginz",
-  "version": "0.0.3-qa.1",
+  "version": "0.0.3-qa.2",
   "description": "All Ginza components in one package - based on antd 5.x",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -20,8 +20,8 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@coder-cloud/ginza-button": "^0.0.4-qa.1",
-    "@coder-cloud/ginza-modal": "^0.0.3-qa.1"
+    "@coder-cloud/ginza-button": "workspace:*",
+    "@coder-cloud/ginza-modal": "workspace:*"
   },
   "peerDependencies": {
     "antd": "^5.22.0",
