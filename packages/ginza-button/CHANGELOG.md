@@ -3,13 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.0.4-qa.4](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-button@0.0.4-qa.3...@coder-cloud/ginza-button@0.0.4-qa.4) (2025-12-14)
+## [0.0.4-qa.6](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-button@0.0.4-qa.3...@coder-cloud/ginza-button@0.0.4-qa.6) (2025-12-14)
 
 **Note:** Version bump only for package @coder-cloud/ginza-button
 
+## [0.0.4-qa.4](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-button@0.0.4-qa.3...@coder-cloud/ginza-button@0.0.4-qa.4) (2025-12-14)
 
-
-
+**Note:** Version bump only for package @coder-cloud/ginza-button
 
 ## [0.0.4-qa.3](https://github.com/duqigit/mymonorepo/compare/@coder-cloud/ginza-button@0.0.3...@coder-cloud/ginza-button@0.0.4-qa.3) (2025-12-14)
 
